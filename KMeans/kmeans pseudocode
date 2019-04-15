@@ -1,0 +1,34 @@
+Pseudocode k means
+
+
+n <- number of features
+f <- array of features
+k <- number of clusters
+
+Loop through 0 to k-1
+	New Centroid <- [random(lower f1-upper f1),random(lower f2-upper f2),...,random(lower fn-upper fn)]
+
+f <- array of features
+v <- selected vector
+c <- selected centroid
+
+loop through 0 to n-1
+    euclidean distance <- euclidean distance + (v-c)^2
+sqrt(euclidean distance)
+
+n <- number of features
+f <- array of features
+k <- number of clusters
+
+Loop x through 0 to k-1
+    new Centroid <- [(average(f1 where in x) + average(f2 where in x) + ... + average(fn where in x))/k]
+
+k <- number of clusters
+
+Loop x through 1 to k
+    if euclidean distance to centroid x < euclidean distance to centroid smallest
+        smallest <- centroid x
+
+
+
+
